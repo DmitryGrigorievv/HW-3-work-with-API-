@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Случайное изображение из Unsplash</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Случайное изображение из Unsplash</h1>
+        <div id="image-container">
+            <img id="random-image" src="" alt="Random Unsplash Image">
+            <div id="photographer-info">
+                <p id="photographer-name"></p>
+                <a id="photographer-link" href="#" target="_blank">Просмотреть информацию о фотографе</a>
+            </div>
+        </div>
+        <div id="like-container">
+            <button id="like-button"><i class="far fa-heart"></i></button>
+            <span id="like-count">0</span>
+        </div>
+        <button id="new-image-button">Получить новое изображение</button>
+        <h2>Просмотренные ранее изображения</h2>
+        <div id="history-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
